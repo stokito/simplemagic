@@ -193,6 +193,8 @@ public enum ContentType {
 	ZIP("application/zip", "zip", "zip"),
 	/** Zoo archive data */
 	ZOO("application/x-zoo", "zoo", "zoo"),
+	/** ZStandard compressed data */
+	ZSTD("application/zstd", "zstd", "zst"),
 
 	/**
 	 * Copied from http://svn.apache.org/viewvc/httpd/httpd/trunk/docs/conf/mime.types?view=co

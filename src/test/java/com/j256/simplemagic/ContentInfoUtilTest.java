@@ -122,6 +122,8 @@ public class ContentInfoUtilTest {
 					"Adobe Illustrator, version 1.5", false),
 			new FileType("/files/x.amr", ContentType.AMR, "amr", "audio/amr",
 					"Adaptive Multi-Rate Codec (GSM telephony)", false),
+			new FileType("/files/x.zst", ContentType.GZIP, "zstd", "application/zstd",
+					"ZStandard compressed data, from Unix, last modified: 2013-05-08 02:57:08 +0000", false),
 			// end
 	};
 
